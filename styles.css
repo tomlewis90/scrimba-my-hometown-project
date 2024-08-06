@@ -36,7 +36,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url('/scrimba-my-hometown-project/bath.jpeg');
+    background-image: url(/scrimba-my-hometown-project/bath.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
