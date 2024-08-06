@@ -95,7 +95,8 @@ main {
     width: 100%;
     max-width: 250px;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
     border: solid 5px #485a85;
     box-shadow: 0 0 10px #485a85;
     margin-bottom: 1rem;
@@ -107,6 +108,22 @@ main {
 
 .tour-guide-img {
     border-radius: 10%;
+}
+
+.activity-img.roman-baths {
+    background-image: url('./public/roman-baths.jpg');
+}
+
+.activity-img.bath-abbey {
+    background-image: url('./public/abbey.jpg');
+}
+
+.activity-img.jane-austen-centre {
+    background-image: url('./public/jane-austen-center.jpg');
+}
+
+.tour-guide-img {
+    background-image: url('./public/TL.png');
 }
 
 .activity-description, .tour-guide-description {
