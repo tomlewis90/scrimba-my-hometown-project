@@ -36,11 +36,22 @@ main {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url('/public/bath-cres.webp');
+    background-image: url('/public/bath.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
 }
 
 .hero-title {
