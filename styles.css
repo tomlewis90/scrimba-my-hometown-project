@@ -36,7 +36,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 35vh;
-    background-image: url(/public/bath.jpeg);
+    background-image: url(https://assets.vogue.com/photos/634e9f62ffa1e76b32023089/16:9/w_5455,h_3068,c_limit/GettyImages-71442647.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 2rem;
@@ -111,19 +111,21 @@ main {
 }
 
 .activity-img.roman-baths {
-    background-image: url('./public/roman-baths.jpg');
+    background-image: url('https://www.romanbaths.co.uk/sites/www.bathvenues.co.uk/files/2023-09/Torchlit%20Great%20Bath%20Amy%20Sanders.jpg');
 }
 
 .activity-img.bath-abbey {
-    background-image: url('./public/abbey.jpg');
+    background-image: url('https://www.bathabbey.org/wp-content/uploads/bb-plugin/cache/Bath_Abbey_Visit_Bath_Guide_2023-square.jpg');
 }
 
 .activity-img.jane-austen-centre {
-    background-image: url('./public/jane-austen-center.jpg');
+    background-image: url('https://hazelstainer.wordpress.com/wp-content/uploads/2022/07/jane-austen-centre-ext.jpg?w=584');
 }
 
 .tour-guide-img {
-    background-image: url('./public/TL.png');
+    background-image: url('https://ichef.bbci.co.uk/images/ic/480xn/p08rkqxl.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .activity-description, .tour-guide-description {
