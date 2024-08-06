@@ -36,7 +36,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url('https://tomlewis90.github.io/scrimba-my-hometown-project/bath.jpeg');
+    background-image: url('/public/bath.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,19 +125,19 @@ main {
 }
 
 .activity-img.roman-baths {
-    background-image: url('https://tomlewis90.github.io/scrimba-my-hometown-project/roman-baths.jpg');
+    background-image: url('/public/roman-baths.jpg');
 }
 
 .activity-img.bath-abbey {
-    background-image: url('https://tomlewis90.github.io/scrimba-my-hometown-project/abbey.jpg');
+    background-image: url('/public/abbey.jpg');
 }
 
 .activity-img.jane-austen-centre {
-    background-image: url('https://tomlewis90.github.io/scrimba-my-hometown-project/jane-austen-center.jpg');
+    background-image: url('/public/jane-austen-center.jpg');
 }
 
 .tour-guide-img {
-    background-image: url('https://tomlewis90.github.io/scrimba-my-hometown-project/tl.png');
+    background-image: url('/public/TL.png');
 }
 
 .activity-description, .tour-guide-description {
