@@ -1,4 +1,4 @@
-# scrimba-my-hometown-project
+#scrimba-my-hometown-project
 
 ##Scrimba HTML/CSS final project
 
