@@ -36,7 +36,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url(/scrimba-my-hometown-project/bath.jpeg);
+    background-image: url('bath.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,10 +44,22 @@ main {
     overflow: hidden;
 }
 
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
+}
+
 .hero-title {
     font-size: 3rem;
     color: var(--color-highlight);
     text-shadow: 0 0 10px var(--color-accent);
+    position: relative;
+    z-index: 1; /* Ensures the text is above the overlay */
 }
         
 .activities, .tour-guide-container {
@@ -113,19 +125,20 @@ main {
 }
 
 .activity-img.roman-baths {
-    background-image: url('/scrimba-my-hometown-project/roman-baths.jpg');
+    background-image: url('roman-baths.jpg');
 }
 
 .activity-img.bath-abbey {
-    background-image: url('/scrimba-my-hometown-project/abbey.jpg');
+    background-image: url('abbey.jpg');
 }
 
 .activity-img.jane-austen-centre {
-    background-image: url('/scrimba-my-hometown-project/jane-austen-center.jpg');
+    background-image: url('jane-austen-center.jpg');
 }
 
+
 .tour-guide-img {
-    background-image: url('/scrimba-my-hometown-project/TL.png');
+    background-image: url('TL.png');
 }
 
 .activity-description, .tour-guide-description {
