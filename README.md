@@ -1,6 +1,6 @@
-#scrimba-my-hometown-project
+# scrimba-my-hometown-project
 
-##Scrimba HTML/CSS final project
+## Scrimba HTML/CSS final project
 
 Task set by Scrimba to produce a "hometown guide page". Completed ahead of moving onto JavaScript. 
 
